@@ -1,0 +1,24 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.img_Curriculo {
+    width: 200px;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+}
+
+.nome,.email,.telefone {
+    margin: 10px;
+}
+
