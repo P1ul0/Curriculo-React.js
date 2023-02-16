@@ -7,18 +7,46 @@
     
 }
 
+.topo {
+    display: flex;
+    flex-direction: row;
+    margin-right: 400px;
+}
+
 .img_Curriculo {
     width: 200px;
     border-radius: 200px;
     border: 2px solid black;
+    
+}
+.nome {
+    width:25%;
+    position:absolute;
+    text-align:right;
+    margin-right:  3500px;;
+    font-size: 30px;
 }
 
-.dados {
+.titulo {
+    margin-right: 350px;
+}
+
+.dados, .secundarios{
     display: flex;
     flex-direction: row;
 }
 
-.nome,.email,.telefone {
-    margin: 10px;
+.email,.telefone {
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.img_linkedin {
+    width: 60px;
+}
+.img_github, .img_linkedin{
+    margin-top: 30px;
+    margin-right: 110px;
+    margin-left: 20px;
 }
 

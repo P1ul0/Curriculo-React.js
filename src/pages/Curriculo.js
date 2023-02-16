@@ -6,8 +6,8 @@ export default function Curriculo(){
     return(
         <div>
             <DadosPessoais/>
-            <DadosProfissionais/>
             <FormacaoAcademica/>
+            <DadosProfissionais/>
         </div>
     )
 }

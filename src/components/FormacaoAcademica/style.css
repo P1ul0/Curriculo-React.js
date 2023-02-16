@@ -1,0 +1,14 @@
+.title{
+    margin-right: 248px;
+}
+
+.formacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.ensino,.curso {
+    margin-top: 20px;
+    margin-right: 25px;
+    font-size: 18px;
+}
